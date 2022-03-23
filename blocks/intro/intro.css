@@ -1,0 +1,25 @@
+.intro {
+    max-width: 690px;
+    min-height: 429px;
+    text-align: left;
+    margin-top: 114px;
+    margin-bottom: 92px;
+    margin-left: 148px;
+}
+@media (max-width: 1280px) {
+    .intro {
+        margin-left: calc((100vw - 984px)/2);
+    }
+  }
+@media (max-width: 1020px) {
+    .intro {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+  }
+@media (max-width: 768px) {
+    .intro {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+  }
