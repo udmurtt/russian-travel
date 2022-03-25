@@ -1,0 +1,29 @@
+.place {
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    column-gap: 40px;
+    row-gap: 48px;
+}
+@media (max-width: 1280px) {
+    .place {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+  }
+@media (max-width: 1024px) {
+    .place {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+  }
+@media (max-width: 768px) {
+    .place {
+        margin-left: 0;
+        margin-right: 0;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto 1fr;
+        row-gap: 32px;
+    }
+  }
