@@ -8,3 +8,5 @@
 
 - пройти проверку работы
 - дополнить работу технологиями JS
+## ссылка на GitHub Pages
+https://udmurtt.github.io/russian-travel/
