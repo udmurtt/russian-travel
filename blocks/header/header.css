@@ -1,9 +1,8 @@
 .header {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     margin: 28px 48px 56px 48px;
     max-width: 1184px;
     height: 52px;
-    position: relative;
 }
