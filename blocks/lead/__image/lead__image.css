@@ -4,6 +4,12 @@
     background-size: cover;
     margin: 0 auto;
 }
+@media (max-width: 1024px) {
+    .lead__image {
+        width: 928px;
+        height: 580px;
+    }
+  }
 @media (max-width: 1000px) {
     .lead__image {
         width: 100%;

@@ -4,7 +4,7 @@
     position: relative;
     left: 0;
     bottom: 0;
-    font-family: 'Inter';
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
@@ -13,3 +13,13 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
+@media (max-width: 780px) {
+    .lead__caption {
+       margin-left: 24px;
+    }
+  }
+  @media (max-width: 500px) {
+    .lead__caption {
+       margin-left: 16px;
+    }
+  }
