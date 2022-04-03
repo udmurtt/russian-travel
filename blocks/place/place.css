@@ -17,15 +17,18 @@
   }
 @media (max-width: 1023px) {
     .place {
-        margin-top: 88px;
         margin-left: 24px;
         margin-right: 24px;
+    }
+    .place:first-child {
+        margin-top: 88px;
     }
   }
   @media (max-width: 832px) {
     .place {
         grid-template-columns: 340px 1fr;
         column-gap: 28px;
+        margin-bottom: 73px;
     }
   }
 @media (max-width: 750px) {
